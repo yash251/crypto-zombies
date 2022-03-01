@@ -1,5 +1,7 @@
 # crypto-zombies
 
+Here I have saved every step I have done while creating this project. Done with the help of Loom network
+
 // Step 1 - Declared 2 variables (7,8). We have created dnaModulus so that way we can later use the modulus operator % to shorten an integer to 16 digits.
 // Step 2 - Created struct Zombie (10) with 2 properties
 // Step 3 - Created an array of struct Zombie
