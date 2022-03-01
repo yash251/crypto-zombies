@@ -2,8 +2,8 @@
 
 Here I have saved every step I have done while creating this project. Done with the help of Loom network
 
-// Step 1 - Declared 2 variables (7,8). We have created dnaModulus so that way we can later use the modulus operator % to shorten an integer to 16 digits.
-// Step 2 - Created struct Zombie (10) with 2 properties
+// Step 1 - Declared 2 variables . We have created dnaModulus so that way we can later use the modulus operator % to shorten an integer to 16 digits.
+// Step 2 - Created struct Zombie with 2 properties
 // Step 3 - Created an array of struct Zombie
 // Step 4 - Create a 'public' function named createZombie. It should take two parameters: _name (a string), and _dna (a uint).
 // Step 5 - In createZombie - zombies.push(Zombie(_name, _dna));
@@ -13,8 +13,8 @@ Here I have saved every step I have done while creating this project. Done with 
 // Step 9 - Declared an event to let our front-end know every time a new zombie was created, so the app can display it.
 // You're going to need the zombie's id. array.push() returns a uint of the new length of the array - and since the first item in an array has index 0, array.push() - 1 will be the index of the zombie we just added. Store the result of zombies.push() - 1 in a uint called id, so you can use this in the NewZombie event in the next line.
 // Step 10 - Declared mapping (19.20)
-// Step 11 - Updated _createZombie function so that the address which creates zombies is stored through mapping (24,25)
-// Step 12 - Updated createRandomZombie so that a particular address could create only 1 zombie by using 'require' (35)
+// Step 11 - Updated _createZombie function so that the address which creates zombies is stored through mapping
+// Step 12 - Updated createRandomZombie so that a particular address could create only 1 zombie by using 'require'
 // zombiefeeding.sol 
 // Step 13 - Inheritance => Created ZombieFeeding from ZombieFactory (17)
 // Step 14 - Called ZombieFactory.sol in ZombieFeeding.sol by using import function (2)
